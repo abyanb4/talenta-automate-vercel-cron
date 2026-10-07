@@ -1,0 +1,12 @@
+{
+  "crons": [
+    {
+      "path": "/api/run-binary-clockin",
+      "schedule": "0 0 * * 1-5"
+    },
+    {
+      "path": "/api/run-binary-clockout",
+      "schedule": "0 10 * * 1-5"
+    }
+  ]
+}
